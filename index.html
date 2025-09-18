@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adil Bayraktar - Software Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#f59e0b" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Adil Bayraktar" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Adil Bayraktar - Full Stack Engineer & Healthcare Technology Specialist. 4+ years experience in .NET Core, React.js, Angular, Node.js. Expert in healthcare systems and modern web development."
+    />
+    <meta
+      name="keywords"
+      content="Adil Bayraktar, Full Stack Engineer, Healthcare Technology, .NET Core, React.js, Angular, Node.js, Computer Engineering, Web Development, Healthcare Systems, E-commerce Development"
+    />
+    <meta name="author" content="Adil Bayraktar" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="Adil Bayraktar - Full Stack Engineer & Healthcare Technology Specialist"
+    />
+    <meta
+      property="og:description"
+      content="4+ years experience in healthcare technology and modern web development. Expert in .NET Core, React.js, and Angular with focus on scalable applications."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://adilbayraktar.com" />
+    <meta property="og:site_name" content="Adil Bayraktar" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Adil Bayraktar - Full Stack Engineer & Healthcare Technology Specialist"
+    />
+    <meta
+      name="twitter:description"
+      content="4+ years experience in healthcare technology and modern web development. Expert in .NET Core, React.js, and Angular."
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://adilbayraktar.com" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">AB</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-controls">
+          <button class="theme-toggle" id="themeToggle">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="color-picker-btn" id="colorPickerBtn">
+            <i class="fas fa-palette"></i>
+          </button>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Color Picker Modal -->
+    <div class="color-picker-modal" id="colorPickerModal">
+      <div class="color-picker-content">
+        <h3>Choose Your Theme Color</h3>
+        <div class="color-options">
+          <div
+            class="color-option selected"
+            data-color="#f59e0b"
+            style="background: #f59e0b"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#3b82f6"
+            style="background: #3b82f6"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#8b5cf6"
+            style="background: #8b5cf6"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#ef4444"
+            style="background: #ef4444"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#f59e0b"
+            style="background: #f59e0b"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#10b981"
+            style="background: #10b981"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#ec4899"
+            style="background: #ec4899"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#6366f1"
+            style="background: #6366f1"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#2dd4bf"
+            style="background: #2dd4bf"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#06b6d4"
+            style="background: #06b6d4"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#84cc16"
+            style="background: #84cc16"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#f43f5e"
+            style="background: #f43f5e"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#a855f7"
+            style="background: #a855f7"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#e11d48"
+            style="background: #e11d48"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#059669"
+            style="background: #059669"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#dc2626"
+            style="background: #dc2626"
+          ></div>
+          <div
+            class="color-option"
+            data-color="#f97316"
+            style="background: #f97316"
+          ></div>
+        </div>
+        <button class="close-color-picker">Close</button>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="particles" id="particles"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Adil Bayraktar</span>
+            <span class="title typing-text">Software Engineer</span>
+          </h1>
+          <p class="hero-description">
+            Passionate about creating innovative digital solutions that drive
+            business transformation. Specializing in full-stack development and
+            enterprise-grade systems across healthcare operations, including HR
+            management, financial systems, and inventory control.
+          </p>
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Get In Touch</a>
+            <!-- <a href="#projects" class="btn btn-secondary">View My Work</a> -->
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-animation">
+            <div class="code-line">
+              <span class="code-keyword">const</span>
+              <span class="code-variable">name</span>
+              <span class="code-operator">=</span>
+              <span class="code-string">"Adil Bayraktar"</span>
+            </div>
+            <div class="code-line">
+              <span class="code-keyword">function</span>
+              <span class="code-function">createAmazingApps</span>
+              <span class="code-bracket">()</span>
+              <span class="code-bracket">{</span>
+            </div>
+            <div class="code-line indent">
+              <span class="code-keyword">return</span>
+              <span class="code-string">"Innovation & Excellence"</span>
+            </div>
+            <div class="code-line">
+              <span class="code-bracket">}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Full Stack Developer & Healthcare Technology Specialist</h3>
+            <p>
+              I'm a passionate Full Stack Developer with extensive experience in
+              healthcare technology and modern web development. Currently
+              leading development at United Doctors Hospital, where I've been
+              instrumental in creating comprehensive healthcare solutions
+              including the Enaya Homecare system and modernizing the Nouveta
+              medical supply system.
+            </p>
+            <p>
+              I hold a Bachelor's degree in Computer Engineering from Selcuk
+              University and specialize in building scalable, maintainable
+              applications using .NET Core, React.js, Angular, Node.js, and
+              various database technologies. My expertise spans across
+              healthcare systems, e-commerce platforms, and complex reservation
+              systems.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">12+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <div class="floating-elements">
+                <div class="floating-element" style="--delay: 0s">💻</div>
+                <div class="floating-element" style="--delay: 1s">🚀</div>
+                <div class="floating-element" style="--delay: 2s">⚡</div>
+                <div class="floating-element" style="--delay: 3s">🎯</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Services</h2>
+          <p class="section-subtitle">What I can do for you</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Full Stack Development</h3>
+            <p>
+              Building comprehensive end-to-end digital solution architectures
+              that deliver exceptional user experiences while ensuring robust
+              backend performance and scalability for growing businesses across
+              all platforms and devices.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3>Enterprise Resource Planning</h3>
+            <p>
+              Developing unified integrated business management solutions that
+              streamline financial operations, human resources management, and
+              inventory control, providing real-time visibility and automated
+              workflows across all business functions.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-hospital"></i>
+            </div>
+            <h3>Healthcare Information Systems</h3>
+            <p>
+              Creating comprehensive specialized medical technology solutions
+              that enhance patient care delivery, streamline medical workflows,
+              and ensure regulatory compliance while integrating seamlessly with
+              existing healthcare infrastructure.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>User Experience & Web Design</h3>
+            <p>
+              Designing intuitive cross-platform digital experience solutions
+              that provide seamless user interactions across all devices,
+              driving engagement and conversion while maintaining accessibility
+              standards and modern design principles.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Database Architecture & System Integration</h3>
+            <p>
+              Building scalable enterprise data and connectivity solutions that
+              optimize performance, ensure security, and eliminate operational
+              redundancies by integrating disparate systems into unified
+              workflows.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <h3>Custom Business Applications</h3>
+            <p>
+              Developing specialized tailored digital transformation services
+              that address unique business challenges, automate complex
+              processes, and drive digital transformation initiatives specific
+              to your industry needs and operational requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Technical Skills</h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        <div class="skills-content">
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-react"></i>
+              </div>
+              <div class="skill-name">React.js</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-angular"></i>
+              </div>
+              <div class="skill-name">Angular</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-js-square"></i>
+              </div>
+              <div class="skill-name">JavaScript/TypeScript</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-node-js"></i>
+              </div>
+              <div class="skill-name">Node.js/NestJS</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <div class="skill-name">.NET Core</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-microsoft"></i>
+              </div>
+              <div class="skill-name">C#</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="95%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="skill-name">SQL Server</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="90%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="skill-name">PostgreSQL</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="88%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+              <div class="skill-name">Oracle</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <div class="skill-name">MongoDB</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fab fa-wordpress"></i>
+              </div>
+              <div class="skill-name">WordPress</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="85%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-icon">
+                <i class="fas fa-plug"></i>
+              </div>
+              <div class="skill-name">RESTful APIs</div>
+              <div class="skill-bar-container">
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="92%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-subtitle">My professional journey</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Dec 2023 - Present</div>
+              <h3>Software Engineer</h3>
+              <h4>United Doctors Hospital</h4>
+              <p>
+                Lead Developer for Enaya Homecare, developing comprehensive
+                healthcare systems integrated with hospital HIS. Modernizing
+                Nouveta medical supply system and supporting hospital
+                accreditation standards.
+              </p>
+              <ul>
+                <li>Lead Developer for Enaya Homecare system development</li>
+                <li>
+                  Led modernization of Nouveta system from legacy platform to
+                  .NET Core & React.js
+                </li>
+                <li>
+                  Ensured compliance with HIMSS, ACHSI, and CBAHI standards
+                </li>
+                <li>
+                  Collaborated with medical and administrative teams for
+                  requirements gathering
+                </li>
+                <li>
+                  Maintained legacy HIS modules and mentored junior developers
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jul 2022 - Apr 2023</div>
+              <h3>Software Developer</h3>
+              <h4>Loyalty</h4>
+              <p>
+                Focused on building user-friendly web applications and
+                optimizing platform performance using React.js, Angular,
+                JavaScript, and WordPress.
+              </p>
+              <ul>
+                <li>
+                  Developed responsive web applications with React.js and
+                  Angular
+                </li>
+                <li>Optimized platform performance and reduced load times</li>
+                <li>
+                  Enhanced user engagement through improved front-end
+                  functionality
+                </li>
+                <li>
+                  Collaborated with cross-functional teams for seamless
+                  integration
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">May 2022 - Jul 2022</div>
+              <h3>Jr. Software Engineer</h3>
+              <h4>Trustangle</h4>
+              <p>
+                Contributed to web application development and ERP workflow
+                enhancement using JavaScript, TypeScript, React.js, and .NET.
+              </p>
+              <ul>
+                <li>
+                  Built dynamic user interfaces with JavaScript, TypeScript, and
+                  React.js
+                </li>
+                <li>Developed backend components using .NET</li>
+                <li>Played key role in Reachware e-governance project</li>
+                <li>
+                  Collaborated with cross-functional teams for seamless
+                  integration
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-date">Jun 2021 - Jul 2022</div>
+              <h3>Software Developer</h3>
+              <h4>BeXPERT</h4>
+              <p>
+                Progressed from intern to Software Developer, focusing on
+                front-end development with Angular and backend using Node.js,
+                NestJS, PostgreSQL, and MariaDB.
+              </p>
+              <ul>
+                <li>Developed web apps for education and healthcare sectors</li>
+                <li>Optimized WordPress workflows and performance</li>
+                <li>
+                  Contributed to United Doctors Hospital e-Services, Al-Furqan
+                  Platform
+                </li>
+                <li>
+                  Worked on Act Clinics web app and Pathway transport platform
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Some of my recent work</p>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Enaya Homecare System</h3>
+              <!-- <div class="project-links">
+                <a href="#" class="project-link" title="View Project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div> -->
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Nouveta Medical Supply System</h3>
+              <!-- <div class="project-links">
+                <a href="#" class="project-link" title="View Project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div> -->
+            </div>
+          </div>
+          <!-- <div class="project-card">
+            <div class="project-content">
+              <h3>Reservation System</h3>
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Adala App Dashboard</h3>
+              <!-- <div class="project-links">
+                <a href="#" class="project-link" title="View Project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div> -->
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Rokispace Website</h3>
+              <div class="project-links">
+                <a
+                  href="https://rokispace.com"
+                  class="project-link"
+                  title="View Project"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <!-- <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>RokiStore E-commerce</h3>
+              <div class="project-links">
+                <!-- <a href="#" class="project-link" title="View Project">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a href="#" class="project-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Futuretechs Website</h3>
+              <div class="project-links">
+                <a
+                  href="https://futuretechs-sa.com"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Turath Al Riyadh</h3>
+              <div class="project-links">
+                <a
+                  href="https://turathalriyadh.com"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Enaya Medical Website</h3>
+              <div class="project-links">
+                <a
+                  href="https://enaya.med.sa"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Monarize Website</h3>
+              <div class="project-links">
+                <a
+                  href="https://monarize.com"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Renaissance Translations</h3>
+              <div class="project-links">
+                <a
+                  href="https://renaissance-translations.com"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3>Lalecity</h3>
+              <div class="project-links">
+                <a
+                  href="https://lalecity.com"
+                  target="_blank"
+                  class="project-link"
+                  title="Visit Website"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">
+            Let's work together on your next project
+          </p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>
+              I'm always interested in new opportunities and exciting projects.
+              Feel free to reach out!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>hello@adilbayraktar.com</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Jeddah, Saudi Arabia</p>
+                  <p>Istanbul, Türkiye</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://linkedin.com/in/adilbayraktar/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/AdilBayraktar" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://adilbayraktar.com" target="_blank"
+                ><i class="fas fa-globe"></i
+              ></a>
+            </div>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Your Name</label>
+              <span class="error-message" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Your Email</label>
+              <span class="error-message" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" required />
+              <label for="subject">Subject</label>
+              <span class="error-message" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+              <label for="message">Your Message</label>
+              <span class="error-message" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span class="btn-text">Send Message</span>
+              <span class="btn-loading" style="display: none">
+                <i class="fas fa-spinner fa-spin"></i> Sending...
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>
+            &copy; <span id="currentYear">2024</span> Adil Bayraktar. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
